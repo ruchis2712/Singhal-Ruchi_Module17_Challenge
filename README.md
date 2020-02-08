@@ -7,7 +7,8 @@ The goals of this challenge is to:
 - Use resampling to attempt to address class imbalance.
 - Evaluate the performance of machine learning models.
 
-Code File #1 (credit_risk_resampling.ipynb):
+### Code File #1 (credit_risk_resampling.ipynb):
+
 We use the imbalanced-learn library to resample the data and build and evaluate logistic regression classifiers using the resampled data. 
 
 - First we Oversample the data using the RandomOverSampler and SMOTE algorithms
@@ -20,7 +21,7 @@ For each of the above, we:
 - Generate a confusion_matrix
 - Print the classification report (classification_report_imbalanced from imblearn.metrics)
 
-AND Lastly, we provide a brief summary and analysis of the models’ performance towards the end of the code file.
+### AND Lastly, we provide a brief summary and analysis of the models’ performance towards the end of the code file.
 
 In the summary we describe the precision and recall scores, as well as the balanced accuracy score. Additionally, include a final recommendation on the model to use, if any. 
 
